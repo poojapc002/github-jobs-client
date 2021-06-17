@@ -141,7 +141,7 @@ export default function App({ children }: { children: ReactNode }) {
                 </svg>
               </a>
               <a
-                href='https://twitter.com/pbteja1998'
+                href='https://twitter.com/fgh'
                 className='text-gray-400 hover:text-gray-500'
                 target='_blank'
                 rel='noopener noreferrer nofollow'

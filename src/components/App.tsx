@@ -86,24 +86,24 @@ export default function App({ children }: { children: ReactNode }) {
           <div className='max-w-screen-xl px-4 py-4 mx-auto sm:px-6 md:flex md:items-center md:justify-between lg:px-8'>
             <div className='flex justify-center space-x-6 md:order-2'>
               <a
-                href='https://blog.bhanuteja.dev'
+                href='https://b'
                 className='relative text-gray-400 hover:text-gray-500'
                 target='_blank'
                 style={{ bottom: '0.19rem' }}
               >
-                <span className='sr-only'>Bhanu Teja Pachipulusu's Blog</span>
+                <span className='sr-only'>ghghgfhg</span>
                 <img
                   className='w-8 opacity-30 hover:opacity-100'
                   src='/b-logo.png'
                 />
               </a>
               <a
-                href='https://bhanuteja.dev'
+                href='https://bh-09999uteja.dev'
                 className='text-gray-400 hover:text-gray-500'
                 target='_blank'
               >
                 <span className='sr-only'>
-                  Bhanu Teja Pachipulusu's Personal Website
+                  s Personal Website
                 </span>
                 <svg
                   className='w-6 h-6'
@@ -121,7 +121,7 @@ export default function App({ children }: { children: ReactNode }) {
                 </svg>
               </a>
               <a
-                href='https://hashnode.com/@pbteja1998'
+                href='https://hashnode.com/@998'
                 className='text-gray-400 hover:text-gray-500'
                 target='_blank'
                 rel='noopener noreferrer nofollow'
@@ -157,7 +157,7 @@ export default function App({ children }: { children: ReactNode }) {
                 </svg>
               </a>
               <a
-                href='https://github.com/pbteja1998'
+                href='https://github.com/1998'
                 className='text-gray-400 hover:text-gray-500'
                 target='_blank'
                 rel='noopener noreferrer nofollow'
@@ -177,7 +177,7 @@ export default function App({ children }: { children: ReactNode }) {
                 </svg>
               </a>
               <a
-                href='https://github.com/pbteja1998'
+                href='https://github.com/998'
                 className='text-gray-400 hover:text-gray-500'
                 target='_blank'
                 rel='noopener noreferrer nofollow'
@@ -196,7 +196,7 @@ export default function App({ children }: { children: ReactNode }) {
             <div className='mt-2 md:mt-0 md:order-1'>
               <p className='text-base leading-6 prose text-center text-gray-400'>
                 &copy; 2020 Made with 💜 by{' '}
-                <a href='https://blog.bhanuteja.dev'>Bhanu Teja</a>.
+                <a href='https://blog.bhghja.dev'>fgdfgd</a>.
               </p>
             </div>
           </div>

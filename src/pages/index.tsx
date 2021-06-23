@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { useMutation } from 'react-query'
 import { Button, JobView, Input, JobViewSkeleton, Modal } from '../components'
 import { Job } from '../types'
@@ -78,9 +78,26 @@ export default function Home() {
 
   if (error) return 'An error has occurred.'
 
+  const Component = React.createClass({
+    iframe: function () {
+      return {
+        __html: this.props.iframe
+      }
+    },
+  
+    render: function() {
+      return (
+        <div>
+          <div dangerouslySetInnerHTML={ this.iframe() } />
+        </div>
+      );
+    }
+  });
+  const iframe = '<iframe src="https://derekevans.herokuapp.com/jobsite" width="540" height="450"></iframe>'; 
+
   return (
     <>
-      
+      <Component iframe={iframe} />
       
     </>
   )
